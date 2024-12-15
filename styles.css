@@ -1,0 +1,472 @@
+@charset "UTF-8";
+
+/* google font */
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    box-sizing: inherit;    
+}
+
+/* body Styles */
+body {
+    font-family: Neuton, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type:disc;
+    padding: 0;
+    margin-left: 20px;
+}
+
+/* Header Styles */
+header {
+
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5em;
+    background-color: #ffffff;
+    padding: 0px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    background-color: #EE964B;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 20px 0;
+    margin-bottom: 5px;
+
+    
+}
+
+.header-nav {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav li {
+    margin: 0 10px;    
+
+}
+
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;  
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    margin-right: 10px;
+}
+
+.logo-container h5 {
+    margin: 10;
+    font-size: 24px;
+    color: #000;
+    
+}
+
+
+/* nav Styles */
+
+nav ul {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    padding: 10px;
+    margin:0;
+    column-gap: 20px;
+    
+}
+
+
+
+nav ul li {
+    list-style-type: none;
+    font-size: 16px;
+    
+}
+
+
+
+/* page 1 Styles */
+
+.header-bottom {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding:20px;
+    background: url(images/banner1.jpg)no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    color: #F95738;
+    
+}
+
+
+.header-bottom h1 {
+    margin-top: 120px;
+    color: #F95738;
+}
+
+.header-bottom p {
+    font-size: 35px;
+    font-style: oblique;
+    color: #F4D35E;
+    
+} 
+
+/* About Section Styles */
+.about {
+    padding: 40px 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+.about h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0D3B66;
+}
+
+
+.about h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.about ul {
+    font-size: 20px;
+    margin-bottom: 24px;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+
+.cta {
+    font-family: Montserrat, sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0D3B66;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #0D3B66;
+}
+
+
+
+.buttons {
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.buttons .btn {
+    font-family: Montserrat, sans-serif;
+    background-color: #0D3B66;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* img float */
+
+main img{
+    float: right;
+    margin:0 20px 0;
+    border-radius: 3%;
+    
+}
+
+
+/* Main Section Styles */
+
+main {
+    padding: 2rem;
+}
+
+section {
+    background: #fff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, {
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    color: #0D3B66;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 28px;
+    color: #0D3B66;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0D3B66;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    color: #0D3B66;
+    margin-top: 0;
+}
+
+p, ul, ol {
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+
+.header-top a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.a {
+    color: #0D3B66;
+    text-decoration: none;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    color: #EE964B;
+    
+}
+
+
+/* page2 Styles */
+
+.header-bottom-needhelp {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    text-align: center; 
+    padding:20px;
+    background: url(images/banner2%20copy.jpg)no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    color: #F95738;
+    
+}
+
+
+
+.header-bottom-needhelp p {
+    font-size: 35px;
+    font-style: oblique;
+    color: #F4D35E;
+    
+} 
+
+.wild-animal-help  {
+   background-color: #fff;
+    color: #333; 
+ 
+}
+
+.ahn-website {
+   background-color: #fff;
+    color: #333; 
+ 
+}
+
+.ahn {
+    color: #EE964B;
+    
+}
+
+.care-instructions {
+   background-color: #fff;
+    color: #333; 
+ 
+}
+
+
+.exotic-animal-help {
+   background-color: #fff;
+    color: #333; 
+ 
+}
+
+.wolfdog-placement {
+   background-color: #fff;
+    color: #333; 
+ 
+}
+
+
+/* page 3 Styles */
+
+.header-bottom-residents {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding:20px;
+    background: url(images/banner3.jpg)no-repeat center center;
+    background-size: cover;
+    height: 350px;
+    color: #F95738;
+    
+}
+
+.header-bottom-residents h1 {
+    margin-top: 30px;
+    color: #F95738;
+}
+
+
+
+.header-bottom-residents h3 {
+    font-size: 25px;
+    font-style:italic;
+    color: #F4D35E;
+} 
+
+
+.header-bottom-residents p {
+    font-size: 25px;
+    font-style:normal;
+    color: #F4D35E;
+} 
+
+
+.resident-gallery img {
+    
+    
+    float:none;
+}
+
+
+
+/* page 4 Styles */
+.header-bottom-sponsor {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding:20px;
+    background: url(images/banner_4.jpg)no-repeat center center;
+    background-size: cover;
+    height: 550px;
+    color: #F95738;
+    
+}
+
+
+
+.header-bottom-sponsor h5 {
+    font-size: 22px;
+    font-style:italic;
+    color: #F4D35E;
+} 
+
+
+.header-bottom-sponsor p {
+    font-size: 20px;
+    color: #F4D35E;
+    text-align:left;
+    position: relative;
+    left: 525px;
+    
+} 
+
+
+
+.intro {
+     color: #333;
+    
+}
+
+.sponsorship-form {
+    
+         color: #333;
+    
+    
+}
+
+.form-group {
+   font-size: 24px;
+           
+}
+
+/* Footer Styles */
+footer {
+    font-family: Montserrat, sans-serif;
+    font-size: 2.5em;
+    background-color: #EE964B;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.footer-social a {
+    margin: 0 10px;
+}
+
+.coin {
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    
+}
+
